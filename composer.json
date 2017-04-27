@@ -1,0 +1,35 @@
+{
+    "name": "boite/hl7-to-dossier",
+    "license": "MIT",
+    "description": "Example of linkorb/lib-hl7-peri22x usage.",
+    "authors": [
+        {
+            "name": "boite",
+            "email": "boite@users.noreply.github.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "linkorb/lib-hl7-peri22x": "^1.0",
+        "symfony/console": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Boite\\H2D\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/linkorb/lib-hl7v2.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/linkorb/lib-peri22x"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/linkorb/lib-hl7-peri22x"
+        }
+    ]
+}
